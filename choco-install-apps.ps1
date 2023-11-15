@@ -27,6 +27,7 @@ $packages =
     'jdownloader',
     'wiztree',
     'yt-dlp',
+    'nircmd',
 
     # Messaging
     'discord',

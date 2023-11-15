@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"AppsUseLightTheme"=dword:00000000
+"SystemUsesLightTheme"=dword:00000000
+
+# Configure File Explorer and Desktop
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"AutoCheckSelect"=dword:00000001
+"DontPrettyPath"=dword:00000000
+"DontUsePowerShellOnWinX"=dword:00000000
+"Hidden"=dword:00000001
+"HideFileExt"=dword:00000000
+"IconsOnly"=dword:00000000
+"SeparateProcess"=dword:00000000
+"ShowCortanaButton"=dword:00000000
+"ShowStatusBar"=dword:00000001
+"ShowSupperHidden"=dword:00000001
+"ShowTaskViewButton"=dword:00000001
+"ShowTypeOverlay"=dword:00000000
+
