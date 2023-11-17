@@ -29,6 +29,7 @@ $packages =
     'yt-dlp',
     'nircmd',
     'cinebench',
+    'aida64-extreme --version=6.88.6400', # UFF61-1RDD6-FJDJG-NDMN4-U6YB5
 
     # Messaging
     'discord',
