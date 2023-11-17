@@ -28,6 +28,7 @@ $packages =
     'wiztree',
     'yt-dlp',
     'nircmd',
+    'cinebench',
 
     # Messaging
     'discord',
