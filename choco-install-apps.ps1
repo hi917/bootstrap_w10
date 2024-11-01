@@ -18,32 +18,40 @@ $packages =
     'sharex',
 
     # Utilities
+    ## PC Monitoring & Testing
     'crystaldiskinfo',
     'crystaldiskmark',
+    'hwmonitor',
+    'hwinfo',
+    'msiafterburner', # checksum issues. RivaTuner Statistics Server not confirmed to be included
+    'aida64-extreme --version=6.88.6400', # UFF61-1RDD6-FJDJG-NDMN4-U6YB5
+    'prime95.portable',
+    ## Other
     'czkawka',
     'dupeguru',
     'git',
-    'hwmonitor',
     'jdownloader',
     'wiztree',
+    'ffmpeg'
     'yt-dlp',
     'nircmd',
+    'soundswitch',
     'cinebench',
-    'aida64-extreme --version=6.88.6400', # UFF61-1RDD6-FJDJG-NDMN4-U6YB5
+    'ddu',
 
     # Messaging
     'discord',
-    'foxitreader',
-    'sublimetext3',
 
     # Documents
     'drawio',
     'openoffice',
+    'foxitreader',
+    'sublimetext3',
 
     # Online Storage
     'dropbox',
 
-    # Compression
+    # Archive & Compression
     '7zip',
 
     # Media
@@ -51,15 +59,25 @@ $packages =
 
     # Other
     'steam',
-    'razer-synapse-3',
     'ubiquiti-unifi-controller',
+    'obs-studio',
 
     # Security
     'malwarebytes',
     'windscribe',
 
     # Developer Tools
-    'vscode'
+    'vscode',
+    'python39'
+
+    # Unlisted
+    # AMD Cleanup Utility
+    # WLmouse
+    # FlyDigi Space Station
+    # ShurePlus MOTIV
+    # FanControl
+    # SpecialK
+    # wfdownloader
 
 ForEach($package in $packages) {
     choco install $item -fy
